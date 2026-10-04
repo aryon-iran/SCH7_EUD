@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Aryon — استودیو طراحی و توسعه نرم‌افزار حرفه‌ای | ۱۴۰۵" />
+<meta name="theme-color" content="#060709" />
+<title>Aryon | استودیو نرم</title>
+<link rel="stylesheet" href="Sch.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+<!-- ═══ LAYERS ═══ -->
+<div class="bg-grid"></div>
+<div class="bg-glow"></div>
+<div class="bg-noise"></div>
+
+<!-- ═══ CURSOR ═══ -->
+<div class="cursor" id="cursor"></div>
+<div class="cursor-dot" id="cursorDot"></div>
+
+<!-- ═══ HEADER ═══ -->
+<header class="header" id="header">
+  <div class="container header-inner">
+    <a href="#home" class="logo" aria-label="Aryon">
+      <span class="logo-mark">
+        <svg viewBox="0 0 32 32" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 3 L28 26 H4 Z"/>
+          <path d="M11 19 L21 19"/>
+        </svg>
+      </span>
+      <span class="logo-text">
+        <span class="logo-name">Aryon</span>
+        <span class="logo-sub">Studio</span>
+      </span>
+    </a>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link active">خانه</a>
+      <a href="#services" class="nav-link">خدمات</a>
+      <a href="#work" class="nav-link">نمونه‌کار</a>
+      <a href="#about" class="nav-link">درباره</a>
+      <a href="#contact" class="nav-link">تماس</a>
+    </nav>
+
+    <div class="header-actions">
+      <span class="status-chip">
+        <span class="pulse-dot"></span>
+        <span>پذیرش پروژه</span>
+      </span>
+      <a href="#contact" class="btn btn-primary">
+        <span>شروع پروژه</span>
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 19l-7-7 7-7"/>
+        </svg>
+      </a>
+      <button class="burger" id="burger" aria-label="منو">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<!-- ═══ HERO ═══ -->
+<section class="hero" id="home">
+  <div class="container hero-grid-wrap">
+    <div class="hero-content" data-reveal>
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span>۱۴۰۵ — آماده همکاری با تیم‌های جسور</span>
+      </div>
+
+      <h1 class="hero-title">
+        ما نرم‌افزاری می‌سازیم که
+        <br>
+        <span class="gradient-text">سال‌ها کار می‌کند.</span>
+      </h1>
+
+      <p class="hero-sub">
+        Aryon یک استودیو طراحی و توسعه نرم‌افزار است. ما با تمرکز روی کیفیت،
+        سادگی و پایداری، محصولات دیجیتالی می‌سازیم که کسب‌وکار شما را جلو می‌برند.
+      </p>
+
+      <div class="hero-cta">
+        <a href="#contact" class="btn btn-primary btn-lg">
+          <span>شروع همکاری</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+        </a>
+        <a href="#work" class="btn btn-ghost btn-lg">نمونه‌کارها</a>
+      </div>
+
+      <div class="hero-meta">
+        <div class="meta-item">
+          <strong data-count="85" data-suffix="+">۰</strong>
+          <span>پروژه موفق</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <strong data-count="42" data-suffix="+">۰</strong>
+          <span>مشتری فعال</span>
+        </div>
+        <div class="meta-divider"></div>
+        <div class="meta-item">
+          <strong data-count="7">۰</strong>
+          <span>سال تجربه</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-visual" data-reveal>
+      <div class="visual-frame" data-tilt>
+        <div class="frame-head">
+          <div class="frame-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="frame-title">app.aryon.studio</span>
+          <span class="frame-status">
+            <span class="pulse-dot"></span>
+            live
+          </span>
+        </div>
+
+        <div class="frame-body">
+          <aside class="frame-sidebar">
+            <div class="sb-logo">
+              <svg viewBox="0 0 32 32" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M16 3 L28 26 H4 Z"/>
+                <path d="M11 19 L21 19"/>
+              </svg>
+            </div>
+            <div class="sb-item active"></div>
+            <div class="sb-item"></div>
+            <div class="sb-item"></div>
+            <div class="sb-item"></div>
+          </aside>
+
+          <div class="frame-main">
+            <div class="stat-row">
+              <div class="stat-box">
+                <span class="stat-label">درآمد ماهانه</span>
+                <strong class="stat-num">۴۸.۲M</strong>
+                <span class="stat-change up">
+                  <svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                  ۱۲٪
+                </span>
+              </div>
+              <div class="stat-box">
+                <span class="stat-label">کاربران فعال</span>
+                <strong class="stat-num">۱۲,۸۴۰</strong>
+                <span class="stat-change up">
+                  <svg viewBox="0 0 24 24" width="10" height="10" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H8M17 7v9"/></svg>
+                  ۸٪
+                </span>
+              </div>
+            </div>
+
+            <div class="chart-box">
+              <div class="chart-head">
+                <span>عملکرد هفته</span>
+                <span class="chart-legend">
+                  <i></i> فعال
+                </span>
+              </div>
+              <div class="chart">
+                <span style="height: 35%"></span>
+                <span style="height: 62%"></span>
+                <span style="height: 48%"></span>
+                <span style="height: 85%"></span>
+                <span style="height: 55%"></span>
+                <span style="height: 92%"></span>
+                <span style="height: 70%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="floating-tag floating-tag-1">
+        <span class="tag-dot"></span>
+        <span>build: passing</span>
+      </div>
+
+      <div class="floating-tag floating-tag-2">
+        <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M20 6L9 17l-5-5"/>
+        </svg>
+        <span>TypeScript · 100%</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="hero-bottom">
+    <div class="container marquee-wrap">
+      <div class="marquee">
+        <div class="marquee-track">
+          <span>React</span><span>·</span>
+          <span>Next.js</span><span>·</span>
+          <span>TypeScript</span><span>·</span>
+          <span>Node.js</span><span>·</span>
+          <span>PostgreSQL</span><span>·</span>
+          <span>Docker</span><span>·</span>
+          <span>React</span><span>·</span>
+          <span>Next.js</span><span>·</span>
+          <span>TypeScript</span><span>·</span>
+          <span>Node.js</span><span>·</span>
+          <span>PostgreSQL</span><span>·</span>
+          <span>Docker</span><span>·</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ SERVICES ═══ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="section-tag">/ ۰۱ — خدمات</span>
+      <h2 class="section-title">چه کارهایی انجام می‌دهیم</h2>
+      <p class="section-sub">
+        تمرکز ما روی ساخت محصولاتی است که برای کسب‌وکار شما ارزش واقعی ایجاد می‌کنند —
+        نه فقط یک وب‌سایت زیبا.
+      </p>
+    </div>
+
+    <div class="services-grid">
+      <article class="service-card" data-reveal>
+        <div class="sc-num">۰۱</div>
+        <div class="sc-icon">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="3" width="18" height="18" rx="2"/>
+            <path d="M9 3v18M3 9h18"/>
+          </svg>
+        </div>
+        <h3>طراحی رابط کاربری</h3>
+        <p>رابط‌های تمیز و کاربرپسند که تجربه‌ای روان برای کاربران می‌سازند و نرخ تبدیل را بالا می‌برند.</p>
+        <div class="sc-arrow">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+        </div>
+      </article>
+
+      <article class="service-card" data-reveal>
+        <div class="sc-num">۰۲</div>
+        <div class="sc-icon">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+        </div>
+        <h3>توسعه وب</h3>
+        <p>وب‌اپلیکیشن‌های سریع، امن و مقیاس‌پذیر با مدرن‌ترین تکنولوژی‌های روز دنیا.</p>
+        <div class="sc-arrow">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+        </div>
+      </article>
+
+      <article class="service-card" data-reveal>
+        <div class="sc-num">۰۳</div>
+        <div class="sc-icon">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="5" y="2" width="14" height="20" rx="3"/>
+            <path d="M12 18h.01"/>
+          </svg>
+        </div>
+        <h3>اپلیکیشن موبایل</h3>
+        <p>اپلیکیشن‌های iOS و اندروید با تجربه کاربری درجه‌یک و عملکرد بی‌نقص.</p>
+        <div class="sc-arrow">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+        </div>
+      </article>
+
+      <article class="service-card" data-reveal>
+        <div class="sc-num">۰۴</div>
+        <div class="sc-icon">
+          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 16v-4M12 8h.01"/>
+          </svg>
+        </div>
+        <h3>مشاوره فنی</h3>
+        <p>راهنمایی تیم شما برای انتخاب معماری درست، ابزار مناسب و مسیر بهینه.</p>
+        <div class="sc-arrow">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M19 12H5M12 19l-7-7 7-7"/>
+          </svg>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ WORK ═══ -->
+<section class="section work" id="work">
+  <div class="container">
+    <div class="section-head" data-reveal>
+      <span class="section-tag">/ ۰۲ — نمونه‌کار</span>
+      <h2 class="section-title">پروژه‌های اخیر</h2>
+      <p class="section-sub">
+        چند نمونه از پروژه‌هایی که با تیم Aryon ساخته‌ایم.
+      </p>
+    </div>
+
+    <div class="work-grid">
+      <a href="#" class="work-card" data-reveal data-tilt>
+        <div class="work-thumb">
+          <div class="thumb-mock">
+            <div class="mock-bar"></div>
+            <div class="mock-bar short"></div>
+            <div class="mock-grid">
+              <span></span><span></span><span></span>
+            </div>
+          </div>
+        </div>
+        <div class="work-info">
+          <div>
+            <h4>پلتفرم آموزشی نوا</h4>
+            <p>وب‌اپلیکیشن · React / Node</p>
+          </div>
+          <span class="work-arrow">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <a href="#" class="work-card" data-reveal data-tilt>
+        <div class="work-thumb">
+          <div class="thumb-mock alt">
+            <div class="mock-circle"></div>
+            <div class="mock-bar"></div>
+            <div class="mock-bar short"></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <div>
+            <h4>اپلیکیشن مالی آوا</h4>
+            <p>موبایل · Flutter</p>
+          </div>
+          <span class="work-arrow">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+
+      <a href="#" class="work-card" data-reveal data-tilt>
+        <div class="work-thumb">
+          <div class="thumb-mock third">
+            <div class="mock-row"></div>
+            <div class="mock-row"></div>
+            <div class="mock-row"></div>
+            <div class="mock-row"></div>
+          </div>
+        </div>
+        <div class="work-info">
+          <div>
+            <h4>داشبورد مدیریتی رها</h4>
+            <p>وب‌اپلیکیشن · Vue / Django</p>
+          </div>
+          <span class="work-arrow">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M19 12H5M12 19l-7-7 7-7"/>
+            </svg>
+          </span>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section class="section about" id="about">
+  <div class="container about-inner">
+    <div class="about-content" data-reveal>
+      <span class="section-tag">/ ۰۳ — درباره Aryon</span>
+      <h2 class="section-title">
+        تیمی کوچک،
+        <br>
+        با استانداردهای بلند.
+      </h2>
+      <p class="about-text">
+        Aryon از سال ۱۴۰۳ در کنار کسب‌وکارها بوده تا ایده‌هایشان را به محصولات واقعی تبدیل کند.
+        ما باور داریم نرم‌افزار خوب باید ساده، سریع و قابل اعتماد باشد. تیم کوچک ما
+        روی کیفیت تمرکز دارد، نه کمیت.
+      </p>
+
+      <div class="about-points">
+        <div class="point">
+          <span class="point-check">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </span>
+          <span>تحویل به‌موقع و شفاف</span>
+        </div>
+        <div class="point">
+          <span class="point-check">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </span>
+          <span>کد تمیز و قابل نگهداری</span>
+        </div>
+        <div class="point">
+          <span class="point-check">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </span>
+          <span>پشتیبانی بلندمدت و واقعی</span>
+        </div>
+        <div class="point">
+          <span class="point-check">
+            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M20 6L9 17l-5-5"/>
+            </svg>
+          </span>
+          <span>ارتباط مستقیم با تیم فنی</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="about-visual" data-reveal>
+      <div class="quote-card">
+        <svg class="quote-icon" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
+          <path d="M6 17h3l2-4V7H5v6h3l-2 4zm9 0h3l2-4V7h-6v6h3l-2 4z"/>
+        </svg>
+        <p class="quote-text">
+          همکاری با تیم Aryon یکی از بهترین تجربه‌های ما بود. از روز اول
+          تا تحویل نهایی، همه‌چیز شفاف و دقیق پیش رفت — بدون وعده‌های توخالی.
+        </p>
+        <div class="quote-author">
+          <div class="author-avatar">ن</div>
+          <div>
+            <strong>نیما رضایی</strong>
+            <span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="quote-badge">
+        <span class="pulse-dot"></span>
+        <span>۹۸٪ رضایت مشتریان</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section class="section contact" id="contact">
+  <div class="container">
+    <div class="contact-inner" data-reveal>
+      <div class="contact-head">
+        <span class="section-tag">/ ۰۴ — تماس</span>
+        <h2 class="section-title">پروژه‌ای در ذهن دارید؟</h2>
+        <p class="section-sub">
+          فرم را پر کنید یا مستقیم با ما تماس بگیرید —
+          در کمتر از ۲۴ ساعت پاسخ می‌دهیم.
+        </p>
+
+        <div class="contact-info">
+          <a href="mailto:hello@aryon.studio" class="info-item">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="2" y="4" width="20" height="16" rx="2"/>
+              <path d="M22 7l-10 6L2 7"/>
+            </svg>
+            <div>
+              <small>ایمیل</small>
+              <span>aryon.iran@gmail.com</span>
+            </div>
+          </a>
+
+          <a href="tel:+982100000000" class="info-item">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/>
+            </svg>
+            <div>
+              <small>تلفن</small>
+              <span>ندارد</span>
+            </div>
+          </a>
+
+          <div class="info-item">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 10c0 7-9 13-9 13S3 17 3 10a9 9 0 0118 0z"/>
+              <circle cx="12" cy="10" r="3"/>
+            </svg>
+            <div>
+              <small>دفتر مرکزی</small>
+              <span>کرج، ایران</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="input-group">
+            <label>نام کامل</label>
+            <input type="text" placeholder="نام شما" required />
+          </div>
+          <div class="input-group">
+            <label>ایمیل</label>
+            <input type="email" placeholder="email@example.com" required />
+          </div>
+        </div>
+
+        <div class="input-group">
+          <label>موضوع پروژه</label>
+          <select required>
+            <option value="">انتخاب کنید...</option>
+            <option>طراحی رابط کاربری</option>
+            <option>توسعه وب</option>
+            <option>اپلیکیشن موبایل</option>
+            <option>مشاوره فنی</option>
+          </select>
+        </div>
+
+        <div class="input-group">
+          <label>توضیحات</label>
+          <textarea placeholder="درباره پروژه‌تان بنویسید..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary btn-full">
+          <span>ارسال پیام</span>
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <span class="logo-mark">
+        <svg viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 3 L28 26 H4 Z"/>
+          <path d="M11 19 L21 19"/>
+        </svg>
+      </span>
+      <div>
+        <strong>Aryon Studio</strong>
+        <small>طراحی و توسعه نرم‌افزار حرفه‌ای</small>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <a href="#services">خدمات</a>
+      <a href="#work">نمونه‌کار</a>
+      <a href="#about">درباره</a>
+      <a href="#contact">تماس</a>
+    </div>
+
+    <div class="footer-copy">
+      © ۱۴۰۵ Aryon — تمام حقوق محفوظ است.
+    </div>
+  </div>
+</footer>
+
+<script src="Aryon_Eud.js"></script>
+</body>
+</html>
